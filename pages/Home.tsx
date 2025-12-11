@@ -36,16 +36,16 @@ const Home: React.FC = () => {
             </div>
             <div className="relative lg:h-[600px] flex justify-center items-center">
               {/* Mockup Placeholder */}
-              <div className="relative w-80 h-[550px] bg-gray-900 rounded-[3rem] border-8 border-gray-800 shadow-2xl overflow-hidden z-20">
+              <div className="relative w-80 h-[550px] bg-gray-900 rounded-[2rem] border-8 border-gray-800 shadow-2xl overflow-hidden z-20">
                 <div className="absolute top-0 w-full h-full bg-white flex flex-col">
                    <div className="bg-primary h-32 flex items-center justify-center pt-8">
                      <h3 className="text-white font-display text-2xl font-bold">Delix</h3>
                    </div>
                    <div className="p-4 space-y-4">
                      <div className="bg-gray-100 h-32 rounded-xl"></div>
-                     <div className="bg-gray-100 h-20 rounded-xl"></div>
-                     <div className="bg-gray-100 h-20 rounded-xl"></div>
-                     <div className="bg-gray-100 h-20 rounded-xl"></div>
+                     <div className="bg-gray-100 h-10 rounded-xl"></div>
+                     <div className="bg-gray-100 h-10 rounded-xl"></div>
+                     <div className="bg-gray-100 h-10 rounded-xl"></div>
                    </div>
                    <button className="mx-4 mt-auto mb-8 bg-secondary text-white py-3 rounded-lg font-bold">Commander</button>
                 </div>
