@@ -93,11 +93,9 @@ const Home: React.FC = () => {
           <p className="text-gray-500 mb-8 font-medium">Ils nous font confiance</p>
           <div className="flex flex-wrap justify-center gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
             {/* Placeholders for logos */}
-            <span className="text-2xl font-bold font-display text-gray-400">BurgerKing</span>
-            <span className="text-2xl font-bold font-display text-gray-400">Carrefour</span>
-            <span className="text-2xl font-bold font-display text-gray-400">Fnac</span>
-            <span className="text-2xl font-bold font-display text-gray-400">Sephora</span>
-            <span className="text-2xl font-bold font-display text-gray-400">LocalBistrot</span>
+            {['Sandwich +', 'Burger & Co', 'Shopreat', 'Azar Libre Service', 'Tonino Market'].map((name, index) => (
+              <span className="text-2xl font-bold font-display text-gray-400">{name}</span>
+            ))}
           </div>
         </div>
       </section>
